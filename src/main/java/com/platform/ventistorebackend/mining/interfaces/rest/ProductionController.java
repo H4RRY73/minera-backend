@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://maintenance-dev-43f4b.web.app/")
 @RestController
 @RequestMapping(value = "/api/v1/production", produces = MediaType.APPLICATION_JSON_VALUE)
 @Tag(name = "Production", description = "Mining Production Management Endpoints")

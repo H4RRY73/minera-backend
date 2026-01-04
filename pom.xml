@@ -30,6 +30,11 @@
         <java.version>21</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.google.cloud.sql</groupId>
+            <artifactId>mysql-socket-factory-connector-j-8</artifactId>
+            <version>1.15.2</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/io.github.encryptorcode/pluralize -->
         <dependency>
             <groupId>io.github.encryptorcode</groupId>
